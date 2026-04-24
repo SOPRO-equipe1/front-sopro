@@ -1,0 +1,59 @@
+.main-header {
+width: 100%;
+background-color: var(--cor-branco);
+border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+padding: 15px 2%;
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+
+.header-container {
+max-width: 1400px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.sopro-logo {
+height: 49px;
+object-fit: contain;
+}
+
+.nav-list {
+display: flex;
+align-items: center;
+gap: 40px;
+list-style: none;
+}
+
+
+
+.nav-item {
+text-decoration: none;
+color: var(--cor-preto);
+font-family: var(--fonte-corpo);
+font-weight: 600;
+font-size: 16px;
+transition: 0.3s;
+
+}
+
+
+
+.nav-item:hover {
+color: var(--cor-azul);
+
+}
+
+
+
+.btn-login {
+
+background-color: var(--cor-azul);
+color: var(--cor-branco) !important;
+padding: 8px 20px;
+border-radius: 8px;
+
+}

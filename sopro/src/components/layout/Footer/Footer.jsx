@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-columns">
           <div className="footer-col">
             <div className="footer-logo-brand">
-              <img src="/logo.png" alt="SOPRO Logo" />
+              <img src="/src/assets/icons/logo.png" alt="SOPRO Logo" />
               <span>SOPRO</span>
             </div>
             <p className="footer-desc">
@@ -41,9 +41,12 @@ const Footer = () => {
           <div className="footer-col">
             <h4>Conecte-se</h4>
             <div className="footer-social-icons">
-              <a href="#" className="social-icon-box"><img src="/icons/link.svg" alt="Social" /></a>
-              <a href="#" className="social-icon-box"><img src="/icons/instagramfooter.svg" alt="Insta" /></a>
-            </div>
+              <a href="#" className="social-icon-box"><img src="/src/assets/icons/imgSimboloLi.png" alt="Linkedin" /></a>
+              <a href="#" className="social-icon-box"><img src="/src/assets/icons/instagramFooter.png" alt="Instagram" /></a>
+              <a href="#" className="social-icon-box"><img src="src/assets/icons/youtubeFooter.png" alt="YoutubeFooter" /></a>
+              <a href="#" className="social-icon-box"><img src="src/assets/icons/GithubFooter.png" alt="GitHubFooter" /></a>
+              
+              </div>
           </div>
         </div>
 

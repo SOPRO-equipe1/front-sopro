@@ -1,12 +1,12 @@
 import React from 'react';
-import './Header.module.css'
+import './Header.css'
 
 const Header = () => {
   return (
     <header className="main-header">
       <div className="header-container">
         <a href="/" className="logo-link">
-          <img className="sopro-logo" src="/assets/images/logo.png" alt="SOPRO Logotipo" />
+          <img className="sopro-logo" src="/src/assets/icons/logo.png" alt="SOPRO Logotipo" />
         </a>
         
         <nav className="nav-menu">

@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@400;500;600&display=swap');
+
+
+:root {
+    /* Paleta de Cores */
+    --cor-azul: #1A53FF;
+    --cor-roxo: #9333EA;
+    --cor-verde: #30BD30;
+    --cor-laranja: #F97316;
+    --cor-preto: #1D252A;
+    --cor-branco: #FAFCFF;
+
+    /* Tipografia */
+    --fonte-titulos: 'Montserrat', sans-serif;
+    --fonte-corpo: 'Poppins', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-branco);
+    color: var(--cor-preto);
+    font-family: var(--fonte-corpo);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* 4. Padronização de titulos */
+h1 {
+    font-family: var(--fonte-titulos);
+    font-weight: 800; /* ExtraBold */
+    font-size: clamp(48px, 5vw, 60px); 
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: var(--fonte-titulos);
+    font-weight: 700; /* Bold */
+    font-size: clamp(32px, 4vw, 40px);
+}
+
+h3 {
+    font-family: var(--fonte-titulos);
+    font-weight: 600; /* SemiBold  */
+    font-size: clamp(24px, 3vw, 28px);
+}
+
+/*Padronização de corpo */
+.lead { /* Para textos de introdução */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 18px; /* Body padrão */
+    font-weight: 400;
+}
+
+small {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* BOTÕES (CTA) */
+.btn-sopro {
+    font-family: var(--fonte-corpo);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-primary { 
+    background-color: var(--cor-azul); 
+    color: var(--cor-branco);
+ }
+
+.btn-primary:hover { opacity: 0.9; 
+    transform: scale(1.05); 
+}
